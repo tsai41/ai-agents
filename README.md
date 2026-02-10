@@ -9,11 +9,11 @@ agents load the same set.
 Symlink your tool's local agents directory to this repo so every client shares
 one canonical set of agents.
 
-Example (Codex/Claude-style local folder):
+Example (Claude):
 
 ```bash
-rm -rf ~/.ai-agents
-ln -s /path/to/ai-agents ~/.ai-agents
+rm -rf ~/.claude/agents
+ln -s /path/to/ai-agents ~/.claude/agents
 ```
 
 Repeat for other tools by replacing the target directory.
